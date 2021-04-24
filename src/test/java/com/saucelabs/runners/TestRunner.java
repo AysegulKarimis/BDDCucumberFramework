@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
         //Path to your feature file   // copy pathten aliyorum bu adresleri path from content root.
         features = {"src/test/resources/features"},
         // Specify tags to be executed
-        tags = "@login",
+        tags = "@abc",
         //Specify step definition package name (Note: make sure to have this package on current directory)
         //Specify step definition package path to connect with feature file
         glue = {"com/saucelabs/stepdefinitions"}

@@ -1,10 +1,10 @@
-@checkout
+
 
 Feature:Checkout Dashboard
 
   Background:
     Given user is logged in the shopping area
-
+  @checkout
   Scenario Outline: Order Checkout
     When user clicks on item with name "<Item>"
     And user clicks on the add to cart button
