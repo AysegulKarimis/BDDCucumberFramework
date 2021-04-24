@@ -1,5 +1,5 @@
 # Author: Cemil Koc
-@login
+@checkout
 Feature: Sauce Labs Login
 
   Scenario: Valid login

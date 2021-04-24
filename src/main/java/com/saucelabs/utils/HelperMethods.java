@@ -6,6 +6,7 @@ import static com.saucelabs.base.BasePage.driver;
 
 public class HelperMethods {
 
+
     public static void sendText(WebElement element, String text) {
         try {
             element.clear();
